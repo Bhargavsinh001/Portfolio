@@ -1,0 +1,265 @@
+.main{
+    background-image: url(../public/img/ab2.jpg);
+    background-repeat:no-repeat ;
+    height: 100vh;
+    width: 97.8vw;
+}
+.data{
+    color: azure;
+    margin-left: 65%;
+   font-size: 2.5vw;
+   font-family:'Times New Roman', Times, serif;
+}
+.data1{
+    color: white;
+    font-size: 1.4vw;
+    margin-left: 65%;
+    margin-top: 6%;
+    /* background-color: black; */
+}
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+.data2{
+    background-image: url(../public/img/work3.jpg);
+    background-repeat: no-repeat;
+    height: 160vh;
+    width: 97.8vw;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding-top: 4%;
+    text-align: center;
+}
+
+/* * {box-sizing:border-box} */
+
+/* Container for skill bars */
+.container1 {
+  width: 99%; /* Full width */
+  height: 1%;
+}
+
+.skills {
+  text-align:right; /* Right-align text */
+  padding-top:1px; /* Add top padding */
+  color: rgb(255, 255, 255); /* White text color */
+}
+
+.html {width: 97%;height: 19px;font-size: 15px; background-color: #04AA6D;} 
+.css {width: 94%; height: 19px; font-size: 15px;background-color: #2196F3;} 
+.js {width: 90%; height: 19px;font-size: 15px; background-color: red;} 
+.mongodb {width: 86%; height: 19px;font-size: 15px; background-color: #10f6f6;} 
+.react {width: 82%; height: 19px;font-size: 15px; background-color:brown;} 
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+.data3{
+    background-image: url(../public/img/old-books-in-pile-on-a-black-background.jpg);
+    background-repeat: no-repeat;
+    height: 115vh;
+    width: 97.8vw;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding-top: 4%;
+    text-align: center;
+}
+
+/* * {
+    box-sizing: border-box;
+  } */
+  * {box-sizing:border-box}
+ 
+ 
+  
+  /* The actual timeline (the vertical ruler) */
+  .time {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .time::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left1 {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right2 {
+    left: 50%;
+  }
+  
+  .left3 {
+    left: 0;
+  }
+  /* Add arrows to the left container (pointing right) */
+  .left1::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right2::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  .left3::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  /* Fix the circle for containers on the right side */
+  .right2::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    color: black;
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    font-size: 20px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+    .time::after {
+      left: 31px;
+    }
+  
+  /* Full-width containers */
+    .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+  /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+  /* Make sure all circles are at the same spot */
+    .left1::after, .right2::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right2 {
+      left: 0%; 
+    }
+  }
+  /* ---------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------------------------------------------------------------------- */
+   .data4{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    height: 115vh;
+    width: 97.8vw;
+   }
+
+/* <!-----------------------------------------     -------------------------------------------------> */
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #c00909; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing:500%; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize:horizontal; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #aa0404;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container4 {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 20px;
+  color: rgb(9, 210, 53);
+}
+ 
+.data4 input{
+  width: vw;
+}
